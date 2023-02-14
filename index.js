@@ -26,7 +26,7 @@ let mailTransporter = nodemailer.createTransport({
     }
 });
 
-const url=`http://localhost:3000/confirmation`
+const url=`https://ovogame-2ae08.web.app/confirmation`
 let mailDetails = {
     from: 'kakapaka92@gmail.com',
     to: `${email}`,
